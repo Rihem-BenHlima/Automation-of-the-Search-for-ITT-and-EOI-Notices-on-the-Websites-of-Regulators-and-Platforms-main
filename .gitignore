@@ -50,7 +50,6 @@ saved_files/
 # --- Data: scraped / cleaned / labelled datasets ---
 *.xlsx
 *.xls
-2_scraped_files/
 3_cleaning/scraped_data.xlsx
 3_cleaning/data.xlsx
 
