@@ -1,6 +1,6 @@
 # 🔎 Automation of the Search for ITT and EOI Notices on the Websites of Regulators and National/International Platforms
 
-🎓 *Developed during a summer internship.*
+🎓 *Developed during a summer internship*
 
 > An end-to-end pipeline that **scrapes** tender notices from regulator and procurement portals across Africa, **cleans** them, **classifies** them with a fine-tuned NLP model, and lets you **filter and export** the relevant ones from a Streamlit dashboard.
 
