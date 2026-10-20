@@ -1,0 +1,59 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+*.egg-info/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Secrets (e.g. Google AI Studio API key used for data augmentation) ---
+.env
+*.key
+secrets.*
+
+# --- Trained models (too large for GitHub: model.safetensors is several hundred MB) ---
+my_model/
+4_classification/camembert/my_model/
+4_classification/mpnet/my_model_setfit/
+*.safetensors
+*.pkl
+*.bin
+*.pt
+*.pth
+
+# --- Downloaded tender PDFs / saved files ---
+*.pdf
+saved_files/
+**/saved_files/
+
+# --- CSV files ---
+*.csv
+*.CSV
+
+# --- Excel lock/temp files ---
+~$*.xlsx
+.~lock.*
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+
+# --- Data: scraped / cleaned / labelled datasets ---
+*.xlsx
+*.xls
+2_scraped_files/
+3_cleaning/scraped_data.xlsx
+3_cleaning/data.xlsx
+
+# --- data files (any name/format) ---
+data/
+data.*
